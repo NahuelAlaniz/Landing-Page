@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Encabezado de la pagina-->
+    <header>
+        <!--Inicio de navegacion-->
+        <nav>
+            <ul>
+                <!--Lista de los enlaces de navegacion-->
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Seccion de bienvenida de la pagina-->
+    <section id="home">
+        <h1>Bienvenido a nuestra pagina</h1>
+        <p>Esto es una pagina de aterrizaje de ejemplo</p>
+        <button onclick="alert('Gracias por hacer click')">Haz click aquí</button>
+    </section>
+
+    <section id="about">
+        <h1>Acerca de nosotros</h1>
+        <p>Somos una empresa dedicada a porporcionar soluciones web.</p>
+    </section>
+
+    <section id="services">
+        <h1>Servicios</h1>
+        <p>Ofrecemos una variedad de servicios para satisfacer tus necesidades.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contacto</h1>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
